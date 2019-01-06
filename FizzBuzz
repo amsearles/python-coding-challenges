@@ -1,0 +1,14 @@
+#prints every number from 1-100. 
+#If its a multiple of 3, it prints fizz. 
+#if its a multiple of 5, it prints buzz. 
+#If its a multiple of both 3 and 5, it prints fizzbuzz. 
+#Else it prints the number.
+
+for x in range(1, 101):
+  if x%3 == 0 and x%5 == 0:
+    print("fizzbuzz")
+  elif x%5 == 0:
+   print("buzz")
+  elif x%3 == 0:
+    print("fizz")
+  else: print(x)
